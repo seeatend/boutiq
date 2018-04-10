@@ -1,0 +1,101 @@
+{
+  "current_user": { //this is the current user of the app
+    "id": 1,
+    "name": "Christine Lau",
+    "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/10644606_10204135160313158_5625840248954293316_n.jpg?oh=edf666d6625c9f52d63bc1163d8e71c6&oe=58166305"
+  },
+  "current_page": 1, //pagination for the reviews and posts
+  "per_page": 20,
+  "total_entries": 67,
+  "entries": [
+    {
+      "feed_type": "post", //Feed_type refers to if it is a Post or a Review
+      "id": 26,
+      "status": "WHOOOO",
+      "updated_at": "2016-08-18T23:48:01.020Z",
+      "post_user": { //Who's the Post by?
+        "id": 3,
+        "name": "Jeep Wrangler",
+        "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/946446_160074151051801_6230809292333481579_n.jpg?oh=63c5e3a4db9260a87f4d0611bd38bd51&oe=5817B313"
+      },
+      "post_edit_url": "http://localhost:3000/posts/26/edit",
+      "post_url": "http://localhost:3000/posts/26",
+      "comments": [//all the comments underneath the post
+        {
+          "id": 49,
+          "text": "HELLLOOO",
+          "user": {
+            "id": 3,
+            "name": "Jeep Wrangler",
+            "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/946446_160074151051801_6230809292333481579_n.jpg?oh=63c5e3a4db9260a87f4d0611bd38bd51&oe=5817B313"
+          },
+          "comment_user_url": "http://localhost:3000/users/3", //the url to the user's profile
+          "post_comment_edit_url": "http://localhost:3000/posts/26/comments/49",  //the url to edit the post
+          "post_comment_delete_url": "http://localhost:3000/posts/26/comments/49" //the url to delete the post
+        }
+      ]
+    },
+     {
+      "feed_type": "review",
+      "id": 68,
+      "text": "YUMMMMMM!!!!!",
+      "stars": 3,
+      "created_at": "2016-07-21T22:16:21.880Z",
+      "review_user": {
+        "id": 1,
+        "name": "Christine Lau",
+        "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/10644606_10204135160313158_5625840248954293316_n.jpg?oh=edf666d6625c9f52d63bc1163d8e71c6&oe=58166305"
+      },
+      "follow_type": "Friend", // Either a Friend or Following
+      "review_edit_url": "http://localhost:3000/reviews/68/edit",
+      "review_url": "http://localhost:3000/reviews/68",
+      "place": {
+        "id": 20,
+        "name": "La Note Restaurant Provencal",
+        "local": "Berkeley, CA",
+        "name_address": "Shattuck Avenue, Berkeley, CA, United States",
+        "tag": [
+          "Eat",
+          "Drink"
+        ],
+        "photo": "http://heneedsfood.com/wp-content/uploads/2015/06/Bombini-Restaurant-Bar-Avoca-by-heneedsfood.com_.jpg",
+        "google_place_id": "ChIJB_-A0oJ-hYARwmbyJJR3sUo"
+      },
+      "place_liked": true,
+      "like_url": "/likes/20",
+      "like_method": "DELETE",
+      "comments": []
+    },
+    {
+      "feed_type": "review",
+      "id": 68,
+      "text": "Hey",
+      "stars": 3,
+      "created_at": "2016-07-21T22:16:21.880Z",
+      "review_user": {
+        "id": 1,
+        "name": "Christine Lau5555",
+        "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/10644606_10204135160313158_5625840248954293316_n.jpg?oh=edf666d6625c9f52d63bc1163d8e71c6&oe=58166305"
+      },
+      "follow_type": "Following", // Either a Friend or Following
+      "review_edit_url": "http://localhost:3000/reviews/68/edit",
+      "review_url": "http://localhost:3000/reviews/68",
+      "place": {
+        "id": 20,
+        "name": "Le Petit Cabaret",
+        "local": "San Francisco",
+        "name_address": "Shattuck Avenue, Berkeley, CA, United States",
+        "tag": [
+          "Eat",
+          "Do"
+        ],
+        "photo": "http://heneedsfood.com/wp-content/uploads/2015/06/bombini-restaurant-09.jpg",
+        "google_place_id": "ChIJB_-A0oJ-hYARwmbyJJR3sUo"
+      },
+      "place_liked": true,
+      "like_url": "/likes/20",
+      "like_method": "DELETE",
+      "comments": []
+    }
+  ]
+}

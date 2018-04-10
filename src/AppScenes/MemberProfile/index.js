@@ -1,0 +1,1 @@
+export { MemberProfileScene } from './MemberProfileScene';

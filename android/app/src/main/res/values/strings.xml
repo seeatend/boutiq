@@ -1,0 +1,5 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">EHSdPY5_EEnfZXqpwcIzRyyNQA8qNy-UPRjlW</string>
+    <string name="app_name">boutiq</string>
+    <string name="facebook_app_id">1060813524064349</string>
+</resources>

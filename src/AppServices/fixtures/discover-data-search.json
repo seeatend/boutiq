@@ -1,0 +1,92 @@
+
+{
+  "current_user": {
+    "id": 3,
+    "name": "Jeep Wrangler",
+    "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/946446_160074151051801_6230809292333481579_n.jpg?oh=63c5e3a4db9260a87f4d0611bd38bd51&oe=5817B313"
+  },
+  "current_page": 1,
+  "per_page": 20,
+  "total_entries": 2,
+  "entries": [ //Each object for each card
+    {
+      "id": 63,
+      "text": "Awesome Brunch here! :)",
+      "stars": 5,
+      "review_user": {
+        "id": 14,
+        "name": "Github Cat",
+        "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13692608_107387726366022_7198275052794265971_n.jpg?oh=1190ee09ed5dfc47b9abc19ae25f9b6d&oe=585186E8"
+      },
+      "follow_url": "http://localhost:3000/users/3/followings", //url to follow the public user
+      "follow_method": "POST", // METHOD TO Follow them with
+      "place": {
+        "id": 20,
+        "name": "La Note Restaurant Provencal",
+        "local": "Berkeley, CA",
+        "name_address": "Shattuck Avenue, Berkeley, CA, United States",
+        "tag": [
+          "Eat",
+          "Drink"
+        ],
+        "photo": "http://heneedsfood.com/wp-content/uploads/2013/01/brooklyn042.jpg",
+        "google_place_id": "ChIJB_-A0oJ-hYARwmbyJJR3sUo"
+      },
+      "place_liked": false,
+      "like_url": "/likes/20",
+      "like_method": "POST",
+      "comments": [ //Comments for each Review
+        {
+          "id": 46,
+          "text": "Yummmm",
+          "user": {
+            "id": 14,
+            "name": "Github Cat",
+            "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13692608_107387726366022_7198275052794265971_n.jpg?oh=1190ee09ed5dfc47b9abc19ae25f9b6d&oe=585186E8"
+          },
+          "comment_user_url": "http://localhost:3000/users/14"
+        },
+      ]
+    },
+    {
+      "id": 63,
+      "text": "Awesome Brunch here! :)",
+      "stars": 5,
+      "review_user": {
+        "id": 14,
+        "name": "Github Cat",
+        "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13692608_107387726366022_7198275052794265971_n.jpg?oh=1190ee09ed5dfc47b9abc19ae25f9b6d&oe=585186E8"
+      },
+      "follow_url": "http://localhost:3000/users/3/followings", //url to follow the public user
+      "follow_method": "POST", // METHOD TO Follow them with
+      "place": {
+        "id": 21,
+        "name": "Stinking Bishop",
+        "local": "Newtown, NSW 2042, Australia",
+        "name_address": "5/63-71 Enmore Rd, Newtown, NSW 2042, Australia",
+        "tag": [
+          "Eat",
+          "Drink",
+          "Do"
+        ],
+        "photo": "http://heneedsfood.com/wp-content/uploads/2014/04/stinking01.jpg",
+        "google_place_id": "ChIJB_-A0oJ-hYARwmbyJJR3sUo"
+      },
+      "place_liked": true,
+      "like_url": "/likes/21",
+      "like_method": "POST",
+      "comments": [ //Comments for each Review
+        {
+          "id": 46,
+          "text": "Yummmm",
+          "user": {
+            "id": 14,
+            "name": "Github Cat",
+            "propic": "https://scontent.xx.fbcdn.net/v/t1.0-1/p200x200/13692608_107387726366022_7198275052794265971_n.jpg?oh=1190ee09ed5dfc47b9abc19ae25f9b6d&oe=585186E8"
+          },
+          "comment_user_url": "http://localhost:3000/users/14"
+        },
+      ]
+    }
+  ]
+}

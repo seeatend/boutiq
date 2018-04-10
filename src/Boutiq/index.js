@@ -1,0 +1,1 @@
+export { Boutiq } from './Boutiq';

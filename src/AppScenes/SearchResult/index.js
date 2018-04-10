@@ -1,0 +1,1 @@
+export { SearchResultScene } from './SearchResultScene';
